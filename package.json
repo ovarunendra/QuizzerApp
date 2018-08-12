@@ -4,15 +4,20 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest --env=jsdom",
+    "test:updateSnapshot": "jest --env=jsdom --updateSnapshot"
   },
   "dependencies": {
     "apollo-boost": "^0.1.6",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "enzyme-to-json": "^3.3.4",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
     "native-base": "^2.4.5",
     "react": "16.3.1",
     "react-apollo": "^2.1.4",
+    "react-dom": "^16.4.2",
     "react-native": "0.55.4",
     "react-navigation": "^2.0.1"
   },
@@ -23,6 +28,12 @@
     "react-test-renderer": "16.3.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation|native-base-shoutem-theme)"
+    ]
   }
 }

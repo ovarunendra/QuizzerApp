@@ -1,0 +1,1127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen/> should matches the snapshot 1`] = `
+<MockedProvider
+  addTypename={false}
+  mocks={
+    Array [
+      Object {
+        "request": Object {
+          "query": Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": undefined,
+                "operation": "query",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "quizViewer",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "categories",
+                            },
+                            "selectionSet": undefined,
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 61,
+              "start": 0,
+            },
+          },
+        },
+        "result": Object {
+          "data": Object {
+            "quizViewer": Object {
+              "categories": Array [
+                "Test",
+              ],
+            },
+          },
+        },
+      },
+    ]
+  }
+>
+  <ApolloProvider
+    client={
+      ApolloClient {
+        "__operations_cache__": Map {
+          "data" => Object {
+            "query": Object {
+              "definitions": Array [
+                Object {
+                  "directives": Array [],
+                  "kind": "OperationDefinition",
+                  "name": undefined,
+                  "operation": "query",
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "quizViewer",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "categories",
+                              },
+                              "selectionSet": undefined,
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                  "variableDefinitions": Array [],
+                },
+              ],
+              "kind": "Document",
+              "loc": Object {
+                "end": 61,
+                "start": 0,
+              },
+            },
+            "variables": undefined,
+          },
+        },
+        "cache": InMemoryCache {
+          "addTypename": false,
+          "config": Object {
+            "addTypename": false,
+            "dataIdFromObject": [Function],
+            "fragmentMatcher": HeuristicFragmentMatcher {},
+            "storeFactory": [Function],
+          },
+          "data": ObjectCache {
+            "data": Object {},
+          },
+          "optimistic": Array [],
+          "silenceBroadcast": false,
+          "watches": Array [
+            Object {
+              "callback": [Function],
+              "optimistic": true,
+              "previousResult": [Function],
+              "query": Object {
+                "definitions": Array [
+                  Object {
+                    "directives": Array [],
+                    "kind": "OperationDefinition",
+                    "name": undefined,
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "quizViewer",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "categories",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                    "variableDefinitions": Array [],
+                  },
+                ],
+                "kind": "Document",
+                "loc": Object {
+                  "end": 61,
+                  "start": 0,
+                },
+              },
+              "variables": undefined,
+            },
+          ],
+        },
+        "defaultOptions": Object {},
+        "disableNetworkFetches": false,
+        "link": ApolloLink {
+          "request": [Function],
+        },
+        "mutate": [Function],
+        "query": [Function],
+        "queryDeduplication": true,
+        "queryManager": QueryManager {
+          "dataStore": DataStore {
+            "cache": InMemoryCache {
+              "addTypename": false,
+              "config": Object {
+                "addTypename": false,
+                "dataIdFromObject": [Function],
+                "fragmentMatcher": HeuristicFragmentMatcher {},
+                "storeFactory": [Function],
+              },
+              "data": ObjectCache {
+                "data": Object {},
+              },
+              "optimistic": Array [],
+              "silenceBroadcast": false,
+              "watches": Array [
+                Object {
+                  "callback": [Function],
+                  "optimistic": true,
+                  "previousResult": [Function],
+                  "query": Object {
+                    "definitions": Array [
+                      Object {
+                        "directives": Array [],
+                        "kind": "OperationDefinition",
+                        "name": undefined,
+                        "operation": "query",
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "quizViewer",
+                              },
+                              "selectionSet": Object {
+                                "kind": "SelectionSet",
+                                "selections": Array [
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "categories",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                        },
+                        "variableDefinitions": Array [],
+                      },
+                    ],
+                    "kind": "Document",
+                    "loc": Object {
+                      "end": 61,
+                      "start": 0,
+                    },
+                  },
+                  "variables": undefined,
+                },
+              ],
+            },
+          },
+          "deduplicator": ApolloLink {
+            "request": [Function],
+          },
+          "fetchQueryPromises": Map {
+            "2" => Object {
+              "reject": [Function],
+              "resolve": [Function],
+            },
+          },
+          "idCounter": 3,
+          "link": ApolloLink {
+            "request": [Function],
+          },
+          "mutationStore": MutationStore {
+            "store": Object {},
+          },
+          "onBroadcast": [Function],
+          "queries": Map {
+            "1" => Object {
+              "cancel": [Function],
+              "document": Object {
+                "definitions": Array [
+                  Object {
+                    "directives": Array [],
+                    "kind": "OperationDefinition",
+                    "name": undefined,
+                    "operation": "query",
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "quizViewer",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "categories",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                    "variableDefinitions": Array [],
+                  },
+                ],
+                "kind": "Document",
+                "loc": Object {
+                  "end": 61,
+                  "start": 0,
+                },
+              },
+              "invalidate": false,
+              "invalidated": false,
+              "lastRequestId": 2,
+              "listeners": Array [
+                [Function],
+              ],
+              "newData": null,
+              "observableQuery": ObservableQuery {
+                "_subscriber": [Function],
+                "isCurrentlyPolling": false,
+                "isTornDown": false,
+                "observers": Array [
+                  SubscriptionObserver {
+                    "_subscription": Subscription {
+                      "_cleanup": [Function],
+                      "_observer": Object {
+                        "error": [Function],
+                        "next": [Function],
+                      },
+                      "_queue": undefined,
+                      "_state": "ready",
+                    },
+                  },
+                ],
+                "options": Object {
+                  "context": Object {},
+                  "metadata": Object {
+                    "reactComponent": Object {
+                      "displayName": "Apollo(HomeScreen)",
+                    },
+                  },
+                  "notifyOnNetworkStatusChange": false,
+                  "query": Object {
+                    "definitions": Array [
+                      Object {
+                        "directives": Array [],
+                        "kind": "OperationDefinition",
+                        "name": undefined,
+                        "operation": "query",
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "quizViewer",
+                              },
+                              "selectionSet": Object {
+                                "kind": "SelectionSet",
+                                "selections": Array [
+                                  Object {
+                                    "alias": undefined,
+                                    "arguments": Array [],
+                                    "directives": Array [],
+                                    "kind": "Field",
+                                    "name": Object {
+                                      "kind": "Name",
+                                      "value": "categories",
+                                    },
+                                    "selectionSet": undefined,
+                                  },
+                                ],
+                              },
+                            },
+                          ],
+                        },
+                        "variableDefinitions": Array [],
+                      },
+                    ],
+                    "kind": "Document",
+                    "loc": Object {
+                      "end": 61,
+                      "start": 0,
+                    },
+                  },
+                },
+                "queryId": "1",
+                "queryManager": [Circular],
+                "scheduler": QueryScheduler {
+                  "inFlightQueries": Object {},
+                  "intervalQueries": Object {},
+                  "pollingTimers": Object {},
+                  "queryManager": [Circular],
+                  "registeredQueries": Object {},
+                  "ssrMode": false,
+                },
+                "shouldSubscribe": true,
+                "subscriptionHandles": Array [],
+                "variables": Object {},
+              },
+              "subscriptions": Array [
+                Subscription {
+                  "_cleanup": [Function],
+                  "_observer": Object {
+                    "complete": [Function],
+                    "error": [Function],
+                    "next": [Function],
+                  },
+                  "_queue": undefined,
+                  "_state": "ready",
+                },
+              ],
+            },
+          },
+          "queryDeduplication": true,
+          "queryIdsByName": Object {},
+          "queryStore": QueryStore {
+            "store": Object {
+              "1": Object {
+                "document": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": undefined,
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "quizViewer",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "categories",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 61,
+                    "start": 0,
+                  },
+                },
+                "graphQLErrors": Array [],
+                "metadata": Object {
+                  "reactComponent": Object {
+                    "displayName": "Apollo(HomeScreen)",
+                  },
+                },
+                "networkError": null,
+                "networkStatus": 1,
+                "previousVariables": null,
+                "variables": Object {},
+              },
+            },
+          },
+          "scheduler": QueryScheduler {
+            "inFlightQueries": Object {},
+            "intervalQueries": Object {},
+            "pollingTimers": Object {},
+            "queryManager": [Circular],
+            "registeredQueries": Object {},
+            "ssrMode": false,
+          },
+        },
+        "reFetchObservableQueries": [Function],
+        "resetStore": [Function],
+        "resetStoreCallbacks": Array [],
+        "ssrMode": false,
+        "store": DataStore {
+          "cache": InMemoryCache {
+            "addTypename": false,
+            "config": Object {
+              "addTypename": false,
+              "dataIdFromObject": [Function],
+              "fragmentMatcher": HeuristicFragmentMatcher {},
+              "storeFactory": [Function],
+            },
+            "data": ObjectCache {
+              "data": Object {},
+            },
+            "optimistic": Array [],
+            "silenceBroadcast": false,
+            "watches": Array [
+              Object {
+                "callback": [Function],
+                "optimistic": true,
+                "previousResult": [Function],
+                "query": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": undefined,
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "quizViewer",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": undefined,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "categories",
+                                  },
+                                  "selectionSet": undefined,
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 61,
+                    "start": 0,
+                  },
+                },
+                "variables": undefined,
+              },
+            ],
+          },
+        },
+        "version": "2.3.1",
+        "watchQuery": [Function],
+      }
+    }
+  >
+    <Apollo(HomeScreen)
+      data={Object {}}
+    >
+      <Query
+        displayName="Apollo(HomeScreen)"
+        query={
+          Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": undefined,
+                "operation": "query",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "quizViewer",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": undefined,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "categories",
+                            },
+                            "selectionSet": undefined,
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 61,
+              "start": 0,
+            },
+          }
+        }
+        skip={false}
+        warnUnhandledError={true}
+      >
+        <HomeScreen
+          data={
+            Object {
+              "error": undefined,
+              "fetchMore": [Function],
+              "loading": true,
+              "networkStatus": 1,
+              "refetch": [Function],
+              "startPolling": [Function],
+              "stopPolling": [Function],
+              "subscribeToMore": [Function],
+              "updateQuery": [Function],
+              "variables": Object {},
+            }
+          }
+        >
+          <Styled(Container)>
+            <Container
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 1334,
+                }
+              }
+            >
+              <Component
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": 1334,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "height": 1334,
+                    }
+                  }
+                >
+                  <Styled(Header)
+                    noLeft={true}
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                      }
+                    }
+                  >
+                    <Header
+                      noLeft={true}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "#F8F8F8",
+                            "borderBottomColor": "#a7a6ab",
+                            "borderBottomWidth": 0.5,
+                            "elevation": 3,
+                            "flexDirection": "row",
+                            "height": 64,
+                            "justifyContent": "center",
+                            "left": 0,
+                            "paddingLeft": 6,
+                            "paddingRight": 10,
+                            "paddingTop": 18,
+                            "right": 0,
+                            "shadowColor": undefined,
+                            "shadowOffset": undefined,
+                            "shadowOpacity": undefined,
+                            "shadowRadius": undefined,
+                            "top": 0,
+                          },
+                          Object {
+                            "backgroundColor": "green",
+                          },
+                        ]
+                      }
+                    >
+                      <Component>
+                        <View>
+                          <StatusBar
+                            animated={false}
+                            backgroundColor="#C6C6C6"
+                            barStyle="dark-content"
+                            showHideTransition="fade"
+                          />
+                          <Component
+                            noLeft={true}
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "#F8F8F8",
+                                  "borderBottomColor": "#a7a6ab",
+                                  "borderBottomWidth": 0.5,
+                                  "elevation": 3,
+                                  "flexDirection": "row",
+                                  "height": 64,
+                                  "justifyContent": "center",
+                                  "left": 0,
+                                  "paddingLeft": 6,
+                                  "paddingRight": 10,
+                                  "paddingTop": 18,
+                                  "right": 0,
+                                  "shadowColor": undefined,
+                                  "shadowOffset": undefined,
+                                  "shadowOpacity": undefined,
+                                  "shadowRadius": undefined,
+                                  "top": 0,
+                                },
+                                Object {
+                                  "backgroundColor": "green",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              noLeft={true}
+                              style={
+                                Array [
+                                  Object {
+                                    "backgroundColor": "#F8F8F8",
+                                    "borderBottomColor": "#a7a6ab",
+                                    "borderBottomWidth": 0.5,
+                                    "elevation": 3,
+                                    "flexDirection": "row",
+                                    "height": 64,
+                                    "justifyContent": "center",
+                                    "left": 0,
+                                    "paddingLeft": 6,
+                                    "paddingRight": 10,
+                                    "paddingTop": 18,
+                                    "right": 0,
+                                    "shadowColor": undefined,
+                                    "shadowOffset": undefined,
+                                    "shadowOpacity": undefined,
+                                    "shadowRadius": undefined,
+                                    "top": 0,
+                                  },
+                                  Object {
+                                    "backgroundColor": "green",
+                                  },
+                                ]
+                              }
+                            >
+                              <Styled(Title)
+                                style={
+                                  Object {
+                                    "color": "white",
+                                  }
+                                }
+                              >
+                                <Title
+                                  style={
+                                    Array [
+                                      Object {
+                                        "color": "#000",
+                                        "fontFamily": "System",
+                                        "fontSize": 17,
+                                        "fontWeight": "700",
+                                        "marginLeft": undefined,
+                                        "paddingLeft": 4,
+                                        "paddingTop": 1,
+                                        "textAlign": "center",
+                                      },
+                                      Object {
+                                        "color": "white",
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Text
+                                    accessible={true}
+                                    allowFontScaling={true}
+                                    ellipsizeMode="tail"
+                                    numberOfLines={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#000",
+                                          "fontFamily": "System",
+                                          "fontSize": 17,
+                                          "fontWeight": "700",
+                                          "marginLeft": undefined,
+                                          "paddingLeft": 4,
+                                          "paddingTop": 1,
+                                          "textAlign": "center",
+                                        },
+                                        Object {
+                                          "color": "white",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Text
+                                      accessible={true}
+                                      allowFontScaling={true}
+                                      ellipsizeMode="tail"
+                                      numberOfLines={1}
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#000",
+                                            "fontFamily": "System",
+                                            "fontSize": 17,
+                                            "fontWeight": "700",
+                                            "marginLeft": undefined,
+                                            "paddingLeft": 4,
+                                            "paddingTop": 1,
+                                            "textAlign": "center",
+                                          },
+                                          Object {
+                                            "color": "white",
+                                          },
+                                        ]
+                                      }
+                                    >
+                                      Select Category
+                                    </Text>
+                                  </Text>
+                                </Title>
+                              </Styled(Title)>
+                            </View>
+                          </Component>
+                        </View>
+                      </Component>
+                    </Header>
+                  </Styled(Header)>
+                  <Styled(Content)
+                    padder={true}
+                  >
+                    <Content
+                      padder={true}
+                      style={
+                        Object {
+                          "backgroundColor": "transparent",
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <_class
+                        automaticallyAdjustContentInsets={false}
+                        contentContainerStyle={
+                          Array [
+                            Object {
+                              "padding": 10,
+                            },
+                            undefined,
+                          ]
+                        }
+                        enableAutomaticScroll={true}
+                        enableResetScrollToCoords={true}
+                        extraHeight={75}
+                        extraScrollHeight={0}
+                        keyboardOpeningTime={250}
+                        keyboardShouldPersistTaps="handled"
+                        padder={true}
+                        resetScrollToCoords={
+                          Object {
+                            "x": 0,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          Object {
+                            "backgroundColor": "transparent",
+                            "flex": 1,
+                          }
+                        }
+                        viewIsInsideTabBar={false}
+                      >
+                        <ScrollView
+                          automaticallyAdjustContentInsets={false}
+                          contentContainerStyle={
+                            Array [
+                              Object {
+                                "padding": 10,
+                              },
+                              undefined,
+                            ]
+                          }
+                          contentInset={
+                            Object {
+                              "bottom": 0,
+                            }
+                          }
+                          enableAutomaticScroll={true}
+                          enableResetScrollToCoords={true}
+                          extraHeight={75}
+                          extraScrollHeight={0}
+                          getScrollResponder={[Function]}
+                          handleOnScroll={[Function]}
+                          keyboardDismissMode="interactive"
+                          keyboardOpeningTime={250}
+                          keyboardShouldPersistTaps="handled"
+                          keyboardSpace={0}
+                          onScroll={[Function]}
+                          padder={true}
+                          resetKeyboardSpace={[Function]}
+                          resetScrollToCoords={
+                            Object {
+                              "x": 0,
+                              "y": 0,
+                            }
+                          }
+                          scrollEventThrottle={1}
+                          scrollForExtraHeightOnAndroid={[Function]}
+                          scrollToEnd={[Function]}
+                          scrollToFocusedInput={[Function]}
+                          scrollToPosition={[Function]}
+                          showsVerticalScrollIndicator={true}
+                          style={
+                            Object {
+                              "backgroundColor": "transparent",
+                              "flex": 1,
+                            }
+                          }
+                          viewIsInsideTabBar={false}
+                        >
+                          <_class
+                            automaticallyAdjustContentInsets={false}
+                            contentContainerStyle={
+                              Array [
+                                Object {
+                                  "padding": 10,
+                                },
+                                undefined,
+                              ]
+                            }
+                            contentInset={
+                              Object {
+                                "bottom": 0,
+                              }
+                            }
+                            enableAutomaticScroll={true}
+                            enableResetScrollToCoords={true}
+                            extraHeight={75}
+                            extraScrollHeight={0}
+                            getScrollResponder={[Function]}
+                            handleOnScroll={[Function]}
+                            keyboardDismissMode="interactive"
+                            keyboardOpeningTime={250}
+                            keyboardShouldPersistTaps="handled"
+                            keyboardSpace={0}
+                            onScroll={[Function]}
+                            padder={true}
+                            resetKeyboardSpace={[Function]}
+                            resetScrollToCoords={
+                              Object {
+                                "x": 0,
+                                "y": 0,
+                              }
+                            }
+                            scrollEventThrottle={1}
+                            scrollForExtraHeightOnAndroid={[Function]}
+                            scrollToEnd={[Function]}
+                            scrollToFocusedInput={[Function]}
+                            scrollToPosition={[Function]}
+                            showsVerticalScrollIndicator={true}
+                            style={
+                              Object {
+                                "backgroundColor": "transparent",
+                                "flex": 1,
+                              }
+                            }
+                            viewIsInsideTabBar={false}
+                          >
+                            <RCTScrollView
+                              automaticallyAdjustContentInsets={false}
+                              contentContainerStyle={
+                                Array [
+                                  Object {
+                                    "padding": 10,
+                                  },
+                                  undefined,
+                                ]
+                              }
+                              contentInset={
+                                Object {
+                                  "bottom": 0,
+                                }
+                              }
+                              enableAutomaticScroll={true}
+                              enableResetScrollToCoords={true}
+                              extraHeight={75}
+                              extraScrollHeight={0}
+                              getScrollResponder={[Function]}
+                              handleOnScroll={[Function]}
+                              keyboardDismissMode="interactive"
+                              keyboardOpeningTime={250}
+                              keyboardShouldPersistTaps="handled"
+                              keyboardSpace={0}
+                              onScroll={[Function]}
+                              padder={true}
+                              resetKeyboardSpace={[Function]}
+                              resetScrollToCoords={
+                                Object {
+                                  "x": 0,
+                                  "y": 0,
+                                }
+                              }
+                              scrollEventThrottle={1}
+                              scrollForExtraHeightOnAndroid={[Function]}
+                              scrollToEnd={[Function]}
+                              scrollToFocusedInput={[Function]}
+                              scrollToPosition={[Function]}
+                              showsVerticalScrollIndicator={true}
+                              style={
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "flex": 1,
+                                }
+                              }
+                              viewIsInsideTabBar={false}
+                            >
+                              <Component>
+                                <View>
+                                  <Styled(Spinner)>
+                                    <Spinner
+                                      style={
+                                        Object {
+                                          "height": 80,
+                                        }
+                                      }
+                                    >
+                                      <ActivityIndicator
+                                        animating={true}
+                                        color="#45D56E"
+                                        hidesWhenStopped={true}
+                                        size="large"
+                                        style={
+                                          Object {
+                                            "height": 80,
+                                          }
+                                        }
+                                      >
+                                        <ActivityIndicator
+                                          animating={true}
+                                          color="#45D56E"
+                                          hidesWhenStopped={true}
+                                          size="large"
+                                          style={
+                                            Object {
+                                              "height": 80,
+                                            }
+                                          }
+                                        />
+                                      </ActivityIndicator>
+                                    </Spinner>
+                                  </Styled(Spinner)>
+                                </View>
+                              </Component>
+                            </RCTScrollView>
+                          </_class>
+                        </ScrollView>
+                      </_class>
+                    </Content>
+                  </Styled(Content)>
+                </View>
+              </Component>
+            </Container>
+          </Styled(Container)>
+        </HomeScreen>
+      </Query>
+    </Apollo(HomeScreen)>
+  </ApolloProvider>
+</MockedProvider>
+`;
