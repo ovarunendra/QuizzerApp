@@ -23,6 +23,14 @@ describe('<HomeScreen/>', () => {
     data: {}
   };
 
+  const origConsole = console.error;
+  beforeEach(() => {
+    console.error = () => { };
+  });
+  afterEach(() => {
+    console.error = origConsole;
+  });
+
   it('should matches the snapshot', () => {
     const wrapper = setup(props);
     expect(toJson(wrapper)).toMatchSnapshot();
