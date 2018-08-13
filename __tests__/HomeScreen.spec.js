@@ -1,7 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import '../test/setup';
 import { MockedProvider } from 'react-apollo/test-utils';
 import HomeScreen from '../screens/HomeScreen';
 import { getDataQuery } from '../test/queries';
@@ -22,6 +21,11 @@ describe('<HomeScreen/>', () => {
   const props = {
     data: {}
   };
+
+  const updateUI = async (wrapper) => {
+    await new Promise(resolve => setTimeout(resolve));
+    wrapper.update();
+  }
 
   const origConsole = console.error;
   beforeEach(() => {
@@ -45,15 +49,13 @@ describe('<HomeScreen/>', () => {
   it('should show/hide Spinner', async () => {
     const wrapper = setup(props);
     expect(wrapper.find('Spinner').exists()).toBe(true);
-    await new Promise(resolve => setTimeout(resolve));
-    wrapper.update();
+    await updateUI(wrapper);
     expect(wrapper.find('Spinner').exists()).toBe(false);
   });
 
   it('should category name', async () => {
     const wrapper = setup(props);
-    await new Promise(resolve => setTimeout(resolve));
-    wrapper.update();
+    await updateUI(wrapper);
     expect(wrapper.find('Body').text()).toBe('Test');
   });
 
